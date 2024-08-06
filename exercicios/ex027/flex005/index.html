@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox centralizado</title>
+    <style>
+        *{
+         margin: 0px;   
+         padding: px;
+         box-sizing: border-box;
+        }
+        body {
+            background-color: burlywood;
+
+        }
+        main {
+         background-color: aquamarine; 
+         height: 100vh;   
+         width: 100vw;
+         display: flex;
+         flex-flow: row wrap;
+         justify-content: center;
+         align-items: center;
+        }
+        section {
+         width: 200px;
+         height: 200px;
+         background-color: burlywood;
+         text-align: center;
+         }
+         h1{
+          position: relative; 
+          transform: translate(-0%, +300%);
+           
+         }
+         h2 {
+            position: relative; 
+          transform: translate(-0%, +150%); 
+         }
+         div {
+            position: relative;
+            transform: translate(-150%, -150%);
+
+           height:100px ; 
+           width: 100px;
+           background-color: brown;
+           text-align: center;
+           }
+        
+        
+    </style>
+
+</head>
+<body>
+    <main>
+        <section>
+           <h1>Controlando</h1>
+        </section>
+        <div><h2>sds</h2></div>
+        </main>
+        
+        
+</body>
+</html>
